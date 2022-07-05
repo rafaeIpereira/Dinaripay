@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dinari pay</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Formulário de Cadastro</h2>
+        </div>
+
+        <form class="form" id="form">
+            <div class="form-control">
+
+                <div class="form-control">
+                    <label>Nome &#10035;</label>
+                    <input type="text" placeholder="Nome" id="nome">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control"> 
+                    <label>CPF &#10035;</label>
+                    <input type="number" placeholder="XXX.XXX.XXX-XX" id="cpf">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control"> 
+                    <label>E-mail &#10035;</label>
+                    <input type="text" placeholder="E-mail" id="email">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">  
+                    <label>Data de Nascimento &#10035;</label>
+                    <input type="number" placeholder="DD/MM/AA" id="nasci">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i><br>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">  
+                    <label>Gênero &#10035;</label> <br>
+                    <input class="genero" type="radio" name="sexo" value="masc" id="genero">Masculino <br>
+                    <input class="genero" type="radio" name="sexo" value="fem" id="genero">Feminino
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i> <br>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">  
+                    <label>Senha &#10035;</label>
+                    <input type="password" placeholder="Senha" id="senha">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">   
+                    <label>Corfirmação de senha &#10035;</label>
+                    <input type="password" placeholder="Senha" id="senha2">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i> <br>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <button class="agree" id="enviado">Cadastrar</button>
+                <button class="cancel" id="limpar">Cancelar</button>
+                
+
+
+                
+            </div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
